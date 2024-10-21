@@ -1,0 +1,88 @@
+{
+  "header": {
+    "home": "Home",
+    "createCV": "Create CV",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Arabic"
+  },
+  "home": {
+    
+      "title": "Create a Free CV",
+      "description": "Create your professional CV quickly and easily with our free tool.",
+      "getStarted": "Get Started",
+      "testimonials": "Testimonials",
+      "partners": "Our Partners",
+      "howItWorks": "How It Works",
+      "successStats": "Success Statistics",
+      "cvsCreated": "CVs Created",
+      "jobsLanded": "Jobs Landed",
+      "avgRating": "Average Rating",
+      "blog": "Our Blog",
+      "blogPost1Title": "How to Write a Great CV",
+      "blogPost1Excerpt": "Learn the best practices for writing a standout CV...",
+      "blogPost2Title": "Top CV Mistakes to Avoid",
+      "blogPost2Excerpt": "Avoid these common mistakes when writing your CV...",
+      "readMore": "Read more",
+      "caseStudies": "Case Studies",
+      "caseStudy1Title": "John Doe's Success Story",
+      "caseStudy1Detail": "John used our tool to create a CV that landed him a job...",
+      "caseStudy2Title": "Jane Smith's Career Journey",
+      "caseStudy2Detail": "Jane transformed her career with the help of our CV tool..."
+  },
+  "form": {
+    "title": "Personal Information Form",
+    "name": "Name",
+    "profession": "Profession",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "age": "Age",
+    "objective": "Objective",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills & Abilities",
+    "linkedIn": "LinkedIn",
+    "github": "GitHub",
+    "portfolio": "Portfolio",
+    "preview": "Preview",
+    "previewTitle": "Preview",
+    "previous": "Previous",
+    "next": "Next",
+    "downloadPDF": "Download as PDF"
+  },
+  "footer": {
+    "about": "About Us",
+    "aboutDescription": "We provide the best CV creation tools to help you land your dream job.",
+    "links": "Quick Links",
+    "home": "Home",
+    "createCV": "Create CV",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "© 2024 CVMaster. All rights reserved."
+  },
+  "about": {
+    "title": "About Us",
+    "mission": "Our Mission",
+    "description": "We provide the best tools to help you create a professional CV quickly and easily. Our goal is to help you land your dream job.",
+    "history": "Founded in 2024, CVMaster has helped thousands of job seekers create impressive CVs.",
+    "team": "Our Team",
+    "teamMember": {
+      "name": "Hossam Zahwo",
+      "position": "Front-end Developer",
+      "description": "Hossam Zahwo created this tool to help users easily create professional CVs."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "If you have any questions or need support, please fill out the form below and we'll get back to you as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  }
+}
