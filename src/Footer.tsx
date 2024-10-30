@@ -7,12 +7,12 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-800 text-white py-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div className="mb-6">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mb-6 text-center">
           <h5 className="text-lg font-bold mb-2">{t('footer.about')}</h5>
           <p>{t('footer.aboutDescription')}</p>
         </div>
-        <div className="mb-6">
+        <div className="mb-6 text-center">
           <h5 className="text-lg font-bold mb-2">{t('footer.links')}</h5>
           <ul>
             <li><Link to="/" className="hover:underline">{t('footer.home')}</Link></li>
@@ -21,21 +21,21 @@ const Footer = () => {
             <li><Link to="/contact" className="hover:underline">{t('footer.contact')}</Link></li>
           </ul>
         </div>
-        <div className="mb-6">
+        <div className="mb-6 text-center">
           <h5 className="text-lg font-bold mb-2">{t('footer.followUs')}</h5>
-          <ul className="flex space-x-4 gap-5">
+          <ul className="flex flex-col md:flex-row md:space-x-4 lg:flex-col lg:gap-5">
             <li><a href="https://www.facebook.com" className="hover:underline">Facebook</a></li>
             <li><a href="https://www.twitter.com" className="hover:underline">Twitter</a></li>
             <li><a href="https://www.instagram.com" className="hover:underline">Instagram</a></li>
           </ul>
         </div>
-        <div className="mb-6">
+        <div className="mb-6 text-center">
           <h5 className="text-lg font-bold mb-2">{t('footer.newsletter')}</h5>
-          <form>
+          <form className='px-5'>
             <input
               type="email"
               placeholder={t('footer.emailPlaceholder')}
-              className="w-full px-3 py-2 mb-2 border border-gray-300 rounded-md"
+              className="w-full  px-3 py-2 mb-2 border border-gray-300 rounded-md"
             />
             <button
               type="submit"
